@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { Layout } from './dashboard/components/layout/layout';
+import { Home } from './layout/home/home';
 
 export const routes: Routes = [
-  {path: '', component: Layout}
+  {path: '', component: Home }
 ];
